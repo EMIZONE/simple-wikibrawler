@@ -1,0 +1,272 @@
+[
+{
+"id": "1001",
+"nombre": "Tracer",
+"juego": "Overwatch",
+"rol": "Daño",
+"origen": "Londres, Reino Unido",
+"descripcion": "Exagente de Overwatch cuyo nombre real es Lena Oxton. Tras un accidente experimental con un caza teletransporte warp, su estructura molecular quedó desincronizada del flujo temporal, dejándola en un estado de 'disociación cronal'. Gracias al acelerador cronal diseñado por Winston, ahora puede controlar su propia línea temporal, lo que le permite saltar hacia adelante o hacia atrás en el tiempo a voluntad para descolocar al enemigo en el campo de batalla.",
+"imagen": "overwach/tracer-portrait.webp"
+},
+{
+"id": "1002",
+"nombre": "Genji",
+"juego": "Overwatch",
+"rol": "Daño",
+"origen": "Shimbashi, Japón",
+"descripcion": "Genji Shimada era el hijo menor del líder del clan ninja Shimada, llevando una vida despreocupada y de lujos hasta que se negó a participar en los negocios criminales de su familia. Esto desató un brutal enfrentamiento a muerte con su hermano Hanzo, quien lo dejó al borde de la derruida. Fue rescatado por la doctora Angela Ziegler (Mercy), quien reconstruyó su cuerpo dañado utilizando avanzada tecnología cibernética. Tras aceptar su nueva naturaleza híbrida, vagó por el mundo buscando la paz interior antes de unirse a Overwatch y a los comandos de Kiriko.",
+"imagen": "overwach/genji-portrait.webp"
+},
+{
+"id": "1003",
+"nombre": "Mercy",
+"juego": "Overwatch",
+"rol": "Apoyo",
+"origen": "Zúrich, Suiza",
+"descripcion": "La doctora Angela Ziegler, conocida mundialmente como Mercy, es una médica brillante, científica vanguardista y defensora de la paz incansable. Tras perder a sus padres en los conflictos armados globales, dedicó su carrera a la medicina regenerativa y nanotecnología médica. Desarrolló el traje de Valkyria, un equipo de vuelo aerodinámico equipado con el báculo médico capaz de curar y potenciar a distancia a sus aliados, además de otorgarle la capacidad de planear y revivir temporalmente a compañeros caídos en combate.",
+"imagen": "overwach/mercy-portrait.webp"
+},
+{
+"id": "1004",
+"nombre": "Reinhard",
+"juego": "Overwatch",
+"rol": "Tanque",
+"origen": "Stuttgart, Alemania",
+"descripcion": "Reinhard Wilhelm es un veterano de guerra condecorado y uno de los miembros fundadores de la fuerza de ataque original de Overwatch. Vestido con una imponente armadura de cruzado modelo Crusader y portando un gigantesco martillo propulsado por cohetes, Reinhard encarna los ideales caballerescos de honor, justicia y valor. A pesar de su avanzada edad, se niega a permanecer al margen mientras el mundo sufre, liderando la primera línea de defensa para proteger a los inocentes con su inquebrantable escudo de energía.",
+"imagen": "overwach/reinhardt-portrait.webp"
+},
+{
+"id": "1005",
+"nombre": "Widowmaker",
+"juego": "Overwatch",
+"rol": "Daño",
+"origen": "Paris, Francia",
+"descripcion": "Amélie Lacroix era la devora esposa del agente de Overwatch Gérard Lacroix, hasta que fue secuestrada y sometida a un intenso programa de reordenamiento neural por la organización terrorista Talon. Su pulso y ritmo cardíaco fueron drásticamente disminuidos, volviendo su piel de un tono azulado y eliminando por completo su capacidad de empatía o emociones humanas. Transformada en una letal asesina a sueldo de precisión quirúrgica, utiliza su rifle de francotirador versátil para sembrar el terror sin fallar un solo disparo.",
+"imagen": "overwach/widowmaker-portrait.webp"
+},
+{
+"id": "1006",
+"nombre": "Kiriko",
+"juego": "Overwatch",
+"rol": "Apoyo",
+"origen": "Kanezaka, Japón",
+"descripcion": "Kiriko Kamori creció dividida entre dos mundos y dos tradiciones: las estrictas enseñanzas samuráis de su severo abuelo y las sabias enseñanzas místicas sobre los espíritus protectores de su madre. Protectora autoproclamada de su barrio de Kanezaka frente a las garras del clan yakuza Hashimoto, Kiriko combina ágiles técnicas de kunais envenenados con pergaminos de sanación espiritual, logrando invocar además al poderoso espíritu ancestral del zorro para guiar y potenciar a su equipo.",
+"imagen": "overwach/kiriko-portrait.webp"
+},
+{
+"id": "2001",
+"nombre": "Mario",
+"juego": "Super Smash Bros",
+"rol": "Equilibrado",
+"origen": "Reino Champiñón",
+"descripcion": "El legendario héroe fontanero vestido de rojo que ha salvado innumerables veces el Reino Champiñón de las garras del malvado Bowser. Dotado de una agilidad física sorprendente y una capacidad de salto prodigiosa, Mario es el arquetipo definitivo de luchador versátil en el torneo de Super Smash Bros. Utiliza bolas de fuego elementales, la capa mágica para desviar ataques y su característico golpe de superpuño impulsado por la energía de los super-superhéroes.",
+"imagen": "ssb/mario-portrait.webp"
+},
+{
+"id": "2002",
+"nombre": "Link",
+"juego": "Super Smash Bros",
+"rol": "Luchador",
+"origen": "Hyrule",
+"descripcion": "El elegido por la Diosa, portador indiscutible de la Trifuerza del Valor y protector eterno de la princesa Zelda en las tierras de Hyrule. Maestro espadachín de pocas palabras pero de un valor inquebrantable, Link llega al combate equipado con un vasto arsenal táctico que incluye la Espada Maestra, un arco milenario de precisión letal, bombas de control remoto y un escudo de madera capaz de resistir proyectiles devastadores.",
+"imagen": "ssb/link-portrait.webp"
+},
+{
+"id": "2003",
+"nombre": "Samus Aran",
+"juego": "Super Smash Bros",
+"rol": "Disparador",
+"origen": "K-2L / Zebes",
+"descripcion": "Criada por la mítica e inteligente raza alienígena de los Chozo, quienes le infundieron su propio ADN, Samus Aran se convirtió en la cazarrecompensas más temida y respetada de toda la galaxia. Equipada con el Traje Versátil de alta tecnología y su icónico cañón de brazo capaz de disparar rayos de plasma, misiles guiados y la destructiva bomba de energía, domina tanto el combate a larga distancia como la transformación táctica en la versátil Morfosfera.",
+"imagen": "ssb/samus-portrait.webp"
+},
+{
+"id": "2004",
+"nombre": "Kirby",
+"juego": "Super Smash Bros",
+"rol": "Ligero / Aéreo",
+"origen": "Planeta Popstar",
+"descripcion": "Una pequeña, redonda y aparentemente adorable criatura de color rosado procedente del pacífico Planeta Popstar. A pesar de su tierno aspecto, Kirby posee un poder cósmico insondable: su capacidad elástica de inhalar a cualquier oponente para tragarlo y copiar instantáneamente sus habilidades especiales y atributos físicos. Además, puede inflarse como un globo para flotar indefinidamente por los aires, convirtiéndolo en un adversario impredecible.",
+"imagen": "ssb/kirby-portrait.webp"
+},
+{
+"id": "2005",
+"nombre": "Pikachu",
+"juego": "Super Smash Bros",
+"rol": "Ágil / Rápido",
+"origen": "Kanto",
+"descripcion": "El entrañable y veloz Pokémon de tipo eléctrico que se ha convertido en el emblema mundial de toda la franquicia. Con una velocidad de desplazamiento vertiginosa y reflejos eléctricos sobresalientes, Pikachu canaliza potentes descargas de energía mediante ataques como Trueno, Ataque Rápido y Calambre. Su diminuto tamaño le otorga una ventaja táctica considerable para esquivar los golpes más pesados de los contrincantes más grandes.",
+"imagen": "ssb/pikachu-portrait.webp"
+},
+{
+"id": "2006",
+"nombre": "Fox McCloud",
+"juego": "Super Smash Bros",
+"rol": "Velocista",
+"origen": "Corneria",
+"descripcion": "Lanzado al frente del prestigioso escuadrón de mercenarios espaciales Star Fox, Fox McCloud es un piloto experto y estratega militar consumado. En el terreno de combate cuerpo a cuerpo de Super Smash Bros, destaca por su agilidad sobrehumana, reflejos ultrarrápidos y el uso de un bláster láser de alta frecuencia, además de su clásica maniobra de ilusión óptica y el escudo reflector que devuelve los proyectiles enemigos.",
+"imagen": "ssb/fox-portrait.webp"
+},
+{
+"id": "3001",
+"nombre": "Venom",
+"juego": "Marvel Rivals",
+"rol": "Vanguardia",
+"origen": "Tierra-616",
+"descripcion": "Una forma de vida simbiótica extraterrestre que, tras ser rechazada por Peter Parker, encontró en Eddie Brock su huésped definitivo para dar forma a una de las entidades más aterradoras del universo Marvel. Poseedor de una fuerza física descomunal que supera con creces la de Spider-Man, Venom puede alterar la forma de su biomasa negra para generar garras afiladas, escudos protectores y redes viscosas con las que atrapa y devora a sus rivales sin piedad.",
+"imagen": "marvel-rivals/venom-portrait.webp"
+},
+{
+"id": "3002",
+"nombre": "Iron Man",
+"juego": "Marvel Rivals",
+"rol": "Duelista",
+"origen": "Nueva York, EE.UU.",
+"descripcion": "Tony Stark es un genio multimillonario, magnate industrial e inventor superdotado que, tras sufrir una grave lesión en el pecho durante un secuestro, construyó una armadura cibernética futurista para salvar su vida y escapar. Desde entonces, ha refinado decenas de prototipos mecánicos impulsados por su innovador reactor de arco. Vistiendo su armadura de última generación, domina los cielos disparando rayos repulsores de alta potencia y misiles inteligentes de saturación.",
+"imagen": "marvel-rivals/iron-man-portrait.webp"
+},
+{
+"id": "3003",
+"nombre": "Spider-Man",
+"juego": "Marvel Rivals",
+"rol": "Duelista",
+"origen": "Queens, Nueva York",
+"descripcion": "Peter Parker, un brillante joven huérfano criado por sus tíos en Queens que, tras ser picado por una araña genéticamente alterada en una exhibición científica, adquirió proporcionales fuerza, agilidad y un sentido arácnido premonitorio. Combinando su ingenio científico con dispositivos lanzatelarañas de su propia invención, se columpia acrobáticamente por los rascacielos urbanos para neutralizar criminales y amenazas multiversales con rápidos combos aéreos.",
+"imagen": "marvel-rivals/spider-man-portrait.webp"
+},
+{
+"id": "3004",
+"nombre": "Magneto",
+"juego": "Marvel Rivals",
+"rol": "Vanguardia",
+"origen": "Polonia",
+"descripcion": "Max Eisenhardt, conocido como Magneto, es un poderoso mutante alfa y superviviente del Holocausto que puede generar y manipular campos electromagnéticos a escala planetaria. Convencido de que la humanidad destruirá a la raza mutante si no toman el control, utiliza su dominio absoluto sobre el metal para arrancar estructuras enteras del suelo, formar campos de fuerza impenetrables y lanzar proyectiles férreos con letal precisión milimétrica.",
+"imagen": "marvel-rivals/magneto-portrait.webp"
+},
+{
+"id": "3005",
+"nombre": "Storm",
+"juego": "Marvel Rivals",
+"rol": "Estratega",
+"origen": "Harlem / Kenia",
+"descripcion": "Ororo Munroe desciende de una antigua línea de sacerdotisas africanas dotadas de rasgos singulares y la capacidad innata de manipular los patrones meteorológicos. Venerada en su juventud como una diosa viviente en Kenia y más tarde convertida en una de las pilares fundamentales de los X-Men, Storm canaliza vientos huracanados, tormentas eléctricas y ventiscas gélidas para diezmar formaciones enteras de enemigos desde las alturas.",
+"imagen": "marvel-rivals/storm-portrait.webp"
+},
+{
+"id": "3006",
+"nombre": "Rocket Raccoon",
+"juego": "Marvel Rivals",
+"rol": "Estratega",
+"origen": "Halfworld",
+"descripcion": "Un mapache genéticamente modificado e hiperinteligente procedente del sector espacial de Halfworld, experto en demoliciones, pilotaje de naves y armamento pesado desproporcionado. A pesar de su baja estatura y su temperamento sarcástico y explosivo, Rocket es un estratega brillante capaz de construir torretas automatizadas de apoyo, desplegar campos de curación avanzados y desactivar cualquier sistema tecnológico que se cruce en su camino.",
+"imagen": "marvel-rivals/rocket-raccoon-portrait.webp"
+},
+{
+"id": "4001",
+"nombre": "Scorpion",
+"juego": "Mortal Kombat",
+"rol": "Agresor",
+"origen": "Shirai Ryu / Netherrealm",
+"descripcion": "Hanzo Hasashi era un orgulloso maestro ninja del clan Shirai Ryu hasta que su familia y su clan fueron masacrados a traición por el clan rival Lin Kuei y el hechicero Quan Chi. Resucitado de entre los muertos como un espectro vengativo impulsado por las llamas del inframundo de Netherrealm, Scorpion regresa para saciar su sed de sangre, siendo célebre en todo el multiverso por su icónico grito de guerra 'Get Over Here!' mientras lanza su arpón encadenado.",
+"imagen": "mortal-kombat/Scorpion-portrait.webp"
+},
+{
+"id": "4002",
+"nombre": "Sub-Zero",
+"juego": "Mortal Kombat",
+"rol": "Control / Luchador",
+"origen": "Lin Kuei / Outworld",
+"descripcion": "Kuai Liang, el segundo portador del manto de Sub-Zero, es un implacable maestro de la criomancia perteneciente al clan de asesinos Lin Kuei. A diferencia de otros guerreros, busca redimir el honor de su linaje transformándolo en una fuerza protectora para el reino de Earthrealm. Posee la habilidad innata de congelar la humedad del aire de manera instantánea, creando espadas de hielo macizo, escudos defensivos y estacas letales para inmovilizar a sus adversarios.",
+"imagen": "mortal-kombat/Sub-Zero-portrait.webp"
+},
+{
+"id": "4003",
+"nombre": "Raiden",
+"juego": "Mortal Kombat",
+"rol": "Iniciador",
+"origen": "Cielo / Earthrealm",
+"descripcion": "El inmortal Dios del Trueno y protector oficial del reino de Earthrealm frente a las constantes invasiones de los mundos exteriores. Raiden posee un poder divino incalculable basado en el control absoluto de la electricidad atmosférica y los rayos cósmicos. Durante milenios ha guiado y entrenado a los mejores mortales del planeta, interviniendo directamente en los torneos de Mortal Kombat para asegurar la supervivencia y el equilibrio del cosmos.",
+"imagen": "mortal-kombat/raiden-portrait.webp"
+},
+{
+"id": "4004",
+"nombre": "Kitana",
+"juego": "Mortal Kombat",
+"rol": "Versátil",
+"origen": "Edenia",
+"descripcion": "Princesa milenaria del pacífico reino de Edenia, criada engañosamente bajo la tutela del tiránico emperador Shao Kahn tras la conquista y anexión de su hogar natal. Al descubrir la verdad sobre su pasado y el asesinato de su verdadero padre, lideró rebeliones para liberar su mundo. Es una maestra consumada en el combate con abanicos de acero plegables con filos mortales, combinando elegancia acrobática, velocidad y técnicas de ráfagas de viento cortante.",
+"imagen": "mortal-kombat/kitana-portrait.webp"
+},
+{
+"id": "4005",
+"nombre": "Liu Kang",
+"juego": "Mortal Kombat",
+"rol": "Equilibrado",
+"origen": "Sociedad del Loto Blanco",
+"descripcion": "Un disciplinado monje de la Sociedad del Loto Blanco que se coronó en múltiples ocasiones como el campeón indiscutible de los torneos de Mortal Kombat, salvando a la Tierra del dominio de las fuerzas oscuras. Tras ascender en su divinidad y fusionar su esencia con el fuego primordial, el Dios del Fuego Liu Kang ahora diseña una nueva línea temporal pacífica, combinando sus legendarias patadas voladoras con piroquinesis destructiva.",
+"imagen": "mortal-kombat/liu-kang-portrait.webp"
+},
+{
+"id": "4006",
+"nombre": "Mileena",
+"juego": "Mortal Kombat",
+"rol": "Asesina",
+"origen": "Fosos de Carne de Shang Tsung",
+"descripcion": "Creada artificialmente en los oscuros fosos de carne del hechicero Shang Tsung mediante una mezcla de magia negra y genética edeniana, Mileena fue diseñada para ser el clon perfecto y heredera de la princesa Kitana. Sin embargo, un defecto genético le otorgó una monstruosa mandíbula tarkatana repleta de colmillos afilados. Alimentada por una profunda envidia, inestabilidad mental y salvajismo bestial, combate utilizando un par de sais gemelos con ferocidad sanguinaria.",
+"imagen": "mortal-kombat/mileena-portrait.webp"
+},
+{
+"id": "5001",
+"nombre": "Bebop",
+"juego": "Deadlock",
+"rol": "Iniciador",
+"origen": "Distrito Neoyorquino",
+"descripcion": "Un gigantesco golem robótico de aspecto industrial y retro-futurista, diseñado originalmente en talleres clandestinos de Nueva York para labores de demolición pesada. Modificado con tecnología experimental clandestina, Bebop se ha convertido en una máquina de combate urbana capaz de lanzar un gancho retráctil de alta tensión para arrancar a sus enemigos de coberturas lejanas, incinerándolos posteriormente con un rayo láser de energía concentrada de alto calibre.",
+"imagen": "deadlock/bebop-portrait.webp"
+},
+{
+"id": "5002",
+"nombre": "Haze",
+"juego": "Deadlock",
+"rol": "Asesina / Sigilo",
+"origen": "Bajos Fondos Urbanos",
+"descripcion": "Una sombra en los callejones oscuros, Haze es una agente encubierta y mercenaria de los bajos fondos que domina la tecnología de camuflaje óptico avanzado. Capaz de volverse completamente invisible a la vista humana durante lapsos prolongados, se infiltra tras las líneas enemigas sin hacer el más mínimo ruido antes de desatar ráfagas automáticas de corto alcance y eliminar objetivos prioritarios antes de desvanecerse nuevamente en la neblina.",
+"imagen": "deadlock/haze-portrait.webp"
+},
+{
+"id": "5003",
+"nombre": "Infernus",
+"juego": "Deadlock",
+"rol": "Daño en el tiempo",
+"origen": "Inframundo Industrial",
+"descripcion": "Un impetuoso luchador callejero que, tras un accidente químico en una fundidora abandonada, vio su cuerpo imbuido con temperaturas nucleares capaces de convertir su propia piel en magma viviente. Infernus corre a velocidades pasmosas dejando un rastro de fuego corrosivo a su paso, lanzando ondas expansivas de plasma e incinerando lentamente la barra de salud de cualquier rival que intente enfrentarlo en distancias cortas.",
+"imagen": "deadlock/Infernus-portrait.webp"
+},
+{
+"id": "5004",
+"nombre": "Dynamo",
+"juego": "Deadlock",
+"rol": "Control / Soporte",
+"origen": "Laboratorios Científicos",
+"descripcion": "Un brillante físico cuántico que, tras un catastrófico experimento fallido con portales gravitacionales, quedó atrapado de manera permanente dentro de un exoesqueleto robótico pesado de alta tecnología. Aprovechando su nuevo chasis mecánico, Dynamo es capaz de manipular las leyes de la gravedad local para crear singularidades que atraen a múltiples enemigos hacia un punto central, además de generar campos de pulso estelar para sanar rápidamente a sus compañeros heridos.",
+"imagen": "deadlock/dynamo-portrait.webp"
+},
+{
+"id": "5005",
+"nombre": "Solomon",
+"juego": "Deadlock",
+"rol": "Estratega",
+"origen": "Central Park, Nueva York",
+"descripcion": "Un veterano maestro del ajedrez y estratega que trata el campo de batalla como un tablero, utilizando piezas flotantes y control de zona mediante peones, alfiles, caballos, torres y la reina para dominar tácticamente a sus rivales.",
+"imagen": "deadlock/solomon-portrait.webp"
+},
+{
+"id": "5006",
+"nombre": "Lady Geist",
+"juego": "Deadlock",
+"rol": "Tanque de Sangre",
+"origen": "Mansión Victoriana",
+"descripcion": "Una aristócrata de la era victoriana que, tras cerrar un oscuro pacto ocultista con entidades ancestrales para escapar de una muerte prematura, fue devuelta a la vida como un espectro dependiente de la fuerza vital ajena. Lady Geist no teme sacrificar su propia salud para canalizar maleficios arcanos devastadores, absorbiendo la sangre y la energía vital de sus contrincantes en pleno combate para regenerar sus propios tejidos y mantenerse imbatible.",
+"imagen": "deadlock/lady-geist-portrait.webp"
+}
+]

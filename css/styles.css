@@ -1,0 +1,142 @@
+/* Definición de la estructura de datos para el sistema de temas. Se mapean los colores corporativos y fuentes específicas asociadas con cada franquicia soportada, estandarizando su uso mediante variables globales. */
+:root {
+    --theme-overwatch: #f99e1a; --font-overwatch: 'Teko', sans-serif;
+    --theme-smash: #e60012; --font-smash: 'Bungee', cursive;
+    --theme-marvel: #00d4ff; --font-marvel: 'Orbitron', sans-serif;
+    --theme-mk: #e5b000; --font-mk: 'Cinzel', serif;
+    --theme-deadlock: #19a974; --font-deadlock: 'Share Tech Mono', monospace;
+    --theme-custom: #9b51e0; --font-custom: 'Rajdhani', sans-serif;
+}
+
+/* Modificadores de diseño tipográfico y de color de fondo aplicados dinámicamente sobre los componentes "badge" o insignias, determinando su identidad visual cruzada con las variables del root. */
+.badge-overwatch { background-color: var(--theme-overwatch); font-family: var(--font-overwatch); color: white; font-size: 1.2rem; }
+.badge-smash { background-color: var(--theme-smash); font-family: var(--font-smash); color: white; }
+.badge-marvel { background-color: var(--theme-marvel); font-family: var(--font-marvel); color: black; font-weight: bold; text-transform: uppercase; }
+.badge-mk { background-color: var(--theme-mk); font-family: var(--font-mk); color: black; font-weight: bold; }
+.badge-deadlock { background-color: var(--theme-deadlock); font-family: var(--font-deadlock); color: white; text-transform: uppercase; }
+.badge-custom { background-color: var(--theme-custom); font-family: var(--font-custom); color: white; }
+
+/* Modificadores de color utilizados para inyectar dinámicamente estilos de borde personalizados en el contenedor padre de las tarjetas, según la franquicia asociada. */
+.border-overwatch { border-color: var(--theme-overwatch) !important; }
+.border-smash { border-color: var(--theme-smash) !important; }
+.border-marvel { border-color: var(--theme-marvel) !important; }
+.border-mk { border-color: var(--theme-mk) !important; }
+.border-deadlock { border-color: var(--theme-deadlock) !important; }
+.border-custom { border-color: var(--theme-custom) !important; }
+
+/* Configuración de fuente de respaldo del sistema operativo para mantener el rendimiento y la legibilidad general del documento. */
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+}
+/* Clases para insignias (badges) con tamaños corregidos y colores forzados */
+.badge-overwatch { 
+    background-color: var(--theme-overwatch) !important; 
+    font-family: var(--font-overwatch) !important; 
+    color: white !important; 
+    font-size: 1.3rem !important; /* Incremento mayor por la compresión de la fuente Teko */
+    height: auto !important;
+    padding: 0.1rem 0.8rem !important;
+}
+
+.badge-smash { 
+    background-color: var(--theme-smash) !important; 
+    font-family: var(--font-smash) !important; 
+    color: white !important; 
+    font-size: 1rem !important;
+    height: auto !important;
+    padding: 0.3rem 0.8rem !important;
+}
+
+.badge-marvel { 
+    background-color: var(--theme-marvel) !important; 
+    font-family: var(--font-marvel) !important; 
+    color: black !important; 
+    font-size: 1rem !important;
+    height: auto !important;
+    padding: 0.3rem 0.8rem !important;
+}
+
+.badge-mk { 
+    background-color: var(--theme-mk) !important; 
+    font-family: var(--font-mk) !important; 
+    color: black !important; 
+    font-size: 1rem !important;
+    height: auto !important;
+    padding: 0.3rem 0.8rem !important;
+}
+
+.badge-deadlock { 
+    background-color: var(--theme-deadlock) !important; 
+    font-family: var(--font-deadlock) !important; 
+    color: white !important; 
+    font-size: 1.1rem !important;
+    height: auto !important;
+    padding: 0.3rem 0.8rem !important;
+}
+
+.badge-custom { 
+    background-color: var(--theme-custom) !important; 
+    font-family: var(--font-custom) !important; 
+    color: white !important; 
+    font-size: 1.1rem !important;
+    height: auto !important;
+    padding: 0.3rem 0.8rem !important;
+}
+
+/* Clases utilitarias globales para bordes de bajo contraste sobre fondos oscuros. */
+.border-light {
+    border: 1px solid #363636;
+}
+
+/* Estructuración base de los contenedores de personajes. Configura el fondo oscuro, los bordes sutiles y define una transformación vertical en Y vinculada a un selector :hover para aportar respuesta interactiva. */
+.card {
+    height: 100%;
+    background-color: #1e1e1e;
+    transition: transform 0.2s;
+    cursor: pointer;
+    border: 1px solid #363636;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Estandarización de proporciones visuales de los assets gráficos; restringe el área máxima y ajusta el comportamiento object-fit para evitar la deformación de las imágenes inyectadas. */
+.card-image img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    background-color: #121212;
+}
+
+/* Reglas de invalidación de precedencia CSS (override) aplicadas sobre las clases base del framework Bulma. Tienen como fin forzar el esquema de colores oscuros requeridos por la paleta gráfica del proyecto en las interfaces modales. */
+.modal-card-head, .modal-card-foot {
+    background-color: #121212 !important;
+    border-color: #363636 !important;
+}
+
+/* Invalida los parámetros cromáticos por defecto del framework para garantizar que los elementos de inserción de datos (Inputs, Textareas, Selects) respeten la paleta oscura predeterminada, mejorando el contraste del texto de entrada del usuario. */
+.input, .textarea, .select select {
+    background-color: #121212;
+    border-color: #363636;
+    color: white;
+}
+/* Sobrescribir el ancho predeterminado de la tarjeta del modal */
+#detailModal .modal-card {
+    width: 80%;
+    max-width: 900px;
+}
+
+/* Aplicar flexbox a la columna de la imagen para forzar el centrado absoluto */
+#detailModal .column.is-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Aumentar la altura máxima de la imagen y asegurar que mantenga su proporción */
+#d-img {
+    max-height: 450px !important;
+    width: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es" class="has-background-dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiBrawler</title>
+    <!-- Importación de dependencias externas para tipografía (Google Fonts), diseño estructural (Bulma CSS) e iconografía (FontAwesome), además de la hoja de estilos local. -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Bungee&family=Teko:wght@600&family=Share+Tech+Mono&family=Orbitron:wght@600;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación principal que aloja el título de la aplicación y el botón para inicializar un nuevo registro. -->
+    <nav class="navbar is-black">
+        <div class="container is-flex is-justify-content-space-between is-align-items-center px-3">
+            <h1 class="navbar-item title is-4 has-text-white mb-0"><i class="fa-solid fa-khanda mr-2 has-text-warning"></i> WikiBrawler</h1>
+            <button class="button is-info is-small" onclick="openModal('formModal', true)"><i class="fa-solid fa-plus mr-2"></i> Nuevo</button>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal que incluye el panel de control (búsqueda, filtros y ordenamiento) y la cuadrícula de renderizado de datos. -->
+    <main class="container my-5 px-3">
+        <!-- Panel de control de filtros. Ejecuta filterData() ante cambios en los inputs para actualizar la cuadrícula. -->
+        <div class="box has-background-dark border-light">
+            <div class="columns is-vcentered">
+                <div class="column is-4"><input class="input" type="text" id="search" placeholder="Buscar..." oninput="filterData()"></div>
+                <div class="column is-3">
+                    <div class="select is-fullwidth"><select id="game" onchange="filterData()">
+                        <option value="">Todos los Juegos</option>
+                        <option value="Overwatch">Overwatch</option>
+                        <option value="Super Smash Bros">Super Smash Bros</option>
+                        <option value="Marvel Rivals">Marvel Rivals</option>
+                    </select></div>
+                </div>
+                <div class="column is-3">
+                    <div class="select is-fullwidth"><select id="sort" onchange="filterData()">
+                        <option value="">Ordenar...</option>
+                        <option value="asc">A - Z</option>
+                        <option value="desc">Z - A</option>
+                    </select></div>
+                </div>
+                <div class="column is-2 has-text-right"><span id="count" class="tag is-info is-medium">0</span></div>
+            </div>
+        </div>
+        <!-- Contenedor dinámico donde app_logic.js inyectará las tarjetas de los personajes. -->
+        <div id="grid" class="columns is-multiline"></div>
+    </main>
+
+    <!-- Modal de Detalles: Estructura oculta utilizada para desplegar la información completa de un personaje seleccionado, junto con las acciones de edición y eliminación. -->
+    <div id="detailModal" class="modal">
+        <div class="modal-background" onclick="openModal('detailModal', false)"></div>
+        <div class="modal-card">
+            <header class="modal-card-head is-black"><p class="modal-card-title has-text-white" id="d-name"></p></header>
+            <section class="modal-card-body has-background-dark has-text-light">
+                <div class="columns">
+                    <div class="column is-5"><img id="d-img" class="image" style="width:100%; object-fit:contain; max-height:300px;"></div>
+                    <div class="column is-7">
+                        <span id="d-game" class="tag is-info mb-2"></span> <span id="d-role" class="tag is-dark mb-2"></span>
+                        <p><strong>Origen:</strong> <span id="d-origin"></span></p>
+                        <hr class="has-background-grey-dark">
+                        <p id="d-desc"></p>
+                    </div>
+                </div>
+            </section>
+            <footer class="modal-card-foot is-justify-content-flex-end is-black">
+                <button class="button is-danger is-small" id="btn-del">Eliminar</button>
+                <button class="button is-warning is-small" id="btn-edit">Editar</button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Modal de Formulario: Estructura oculta que contiene los campos de entrada de datos para la creación o modificación de un registro en la base de datos local. -->
+    <div id="formModal" class="modal">
+        <div class="modal-background" onclick="openModal('formModal', false)"></div>
+        <div class="modal-card">
+            <header class="modal-card-head is-black"><p class="modal-card-title has-text-white">Personaje</p></header>
+            <section class="modal-card-body has-background-dark">
+                <form id="charForm" onsubmit="saveChar(event)">
+                    <input type="hidden" id="f-id">
+                    <input class="input mb-3" id="f-name" placeholder="Nombre" required>
+                    <input class="input mb-3" id="f-game" placeholder="Juego" required>
+                    <input class="input mb-3" id="f-role" placeholder="Rol" required>
+                    <input class="input mb-3" id="f-origin" placeholder="Origen">
+                    <textarea class="textarea mb-3" id="f-desc" placeholder="Historia"></textarea>
+                    <input class="input mb-3" id="f-img" placeholder="Archivo (ej. img.webp)">
+                    <button type="submit" class="button is-info is-fullwidth">Guardar</button>
+                </form>
+            </section>
+        </div>
+    </div>
+    <!-- Inyección de la lógica principal de la aplicación. -->
+    <script src="./js/app_logic.js"></script>
+</body>
+</html>
